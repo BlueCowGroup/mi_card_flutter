@@ -17,7 +17,6 @@
 .idea/
 
 # Visual Studio Code related
-.vscode/
 
 # Flutter/Dart/Pub related
 **/doc/api/
@@ -38,6 +37,7 @@ build/
 **/android/**/GeneratedPluginRegistrant.java
 
 # iOS/XCode related
+**/ios/Flutter/flutter_export_environment.sh
 **/ios/**/*.mode1v3
 **/ios/**/*.mode2v3
 **/ios/**/*.moved-aside
@@ -69,3 +69,6 @@ build/
 !**/ios/**/default.pbxuser
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
